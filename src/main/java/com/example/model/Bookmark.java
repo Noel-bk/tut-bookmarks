@@ -1,7 +1,8 @@
-package com.example;
+package com.example.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
+import lombok.ToString;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,8 +12,8 @@ import javax.persistence.ManyToOne;
 /**
  * Created by Noel on 12/5/16.
  */
-@Entity
 @Getter
+@Entity
 public class Bookmark {
 
     @JsonIgnore

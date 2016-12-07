@@ -24,7 +24,7 @@ public class Bookmark {
     @GeneratedValue
     private Long id;
 
-    Bookmark() { // jpa only
+    public Bookmark() { // jpa only
     }
 
     public Bookmark(Account account, String uri, String description) {
